@@ -1,0 +1,63 @@
+div, p {
+font-family: Verdana, Arial, sans-serif;
+}
+
+p.content {
+font-size: 12px;
+width: 30em;
+}
+
+div#help {
+font-size: 12px;
+width: 45em;
+padding: 1em;
+}
+
+div#timelinecontainer{
+width: 100%;
+height: 250px;
+}
+
+.slideButton {
+    height: 250px;
+    float: left;
+    width: 40px;
+}
+
+div#timeline{
+ width: calc(100% - 80px);
+ float: left;
+ height: 100%;
+ font-size: 12px;
+ background: #CCCCCC;
+}
+
+div#mapcontainer {
+ width: 100%;
+ height: 300px;
+}
+
+div#map {
+ width: 100%;
+ height: 100%;
+ background: #EEEEEE;
+}
+
+div.infotitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+div.infodescription {
+    font-size: 14px;
+    font-style: italic;
+}
+.buttonDiv {
+    margin: 10px;
+    display: block;
+}
+#buttonArea {
+    z-index: 1000;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
